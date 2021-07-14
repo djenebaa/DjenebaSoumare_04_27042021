@@ -60,6 +60,13 @@ a:hover {
  margin-left: 1em;
  width: 30em;
 }
+.Outro-text{
+  text-align: center;
+  margin: 0;
+  font-size: 1em;
+  width: 25em;
+  font-weight: bold;
+}
 
 .bg-center,
 .bg-l-edge,
@@ -134,7 +141,6 @@ a:hover {
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
@@ -151,7 +157,6 @@ a:hover {
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
@@ -232,7 +237,6 @@ a:hover {
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
-.l-bloc h4 a,
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
@@ -250,7 +254,6 @@ a:hover {
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
@@ -742,7 +745,7 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    color:#333333!important;
 }
 
 .icons {
@@ -912,7 +915,6 @@ h4 {
     h1,
     h2,
     h3,
-    h4,
     h5,
     h6,
     p,
@@ -1073,8 +1075,12 @@ h4 {
         margin-left:5em
     }
     .Outro{
-        margin-left: 30%;
+      margin-left: 30%;
+      text-align: center;
     }
+    .Outro-text{
+      width: 30em;
+      }
     .social{
    margin-left: 34%;
     }
